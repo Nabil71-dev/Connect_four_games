@@ -1,0 +1,27 @@
+*{margin:0;padding:0;box-sizing: border-box;text-align: center;font-family: Arial, Helvetica, sans-serif;border:none;}
+.connect_four_game{
+    font-size:1.25rem;
+    color:#ffff;
+    height:100vh;
+    background: linear-gradient(45deg,rgb(0, 93, 88),rgb(1, 21, 138),rgb(0, 93, 88));}
+.container{
+    width:58%;
+    height:78vh;
+    margin:auto;
+    margin-top: 1.2rem;}
+.slot{
+    width:7rem;
+    height:5.5rem;
+    border-radius: 8px;}
+.reset_button{
+    margin-top:1.5rem;
+    width: 8rem;
+    height:2.5rem;
+    font-size: 1.5rem;
+    border-radius: 7px;}
+.reset_button:hover{
+    background: transparent;
+    color:white;
+    border:2px solid white;}
+.player_turn{font-size: 2.5rem;
+    color:rgb(255, 255, 255);}
